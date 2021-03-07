@@ -1,0 +1,1 @@
+vault write auth/approle/role/jenkins policies=new token_ttl=56h token_max_ttl=432h
