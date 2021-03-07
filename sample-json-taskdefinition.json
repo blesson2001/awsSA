@@ -1,0 +1,24 @@
+{
+   "containerDefinitions": [
+       {
+         "essential": true,
+         "image": "httpd:2.4",
+         "name": "sample-fargate-app",
+         "portMappings": [ 
+            { 
+               "containerPort": 8896,
+               "hostPort": 80,
+               "protocol": "tcp"
+            }
+         ]
+        }
+   ],
+   "cpu": "256",
+   "executionRoleArn": "arn:aws:iam::012345678910:role/ecsTaskExecutionRole",
+   "family": "fargate-task-definition",
+   "memory": "512",
+   "networkMode": "awsvpc",
+   "requiresCompatibilities": [ 
+       "FARGATE" 
+    ]
+}
