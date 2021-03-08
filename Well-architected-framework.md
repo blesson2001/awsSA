@@ -1,5 +1,10 @@
 Well architected framework:-
 
+What is the AWS Well-Architected Framework? 
+It is aws best stratagies for architecting systems
+
+What are the five pillars of the AWS Well-Architected Framework?
+
 The well architected framework tools and five pilers:-
 
 1)Operational excellance:-
@@ -22,7 +27,7 @@ Ability to run systems deliver business value at lowest price.
 Aws well architected framework tool:-
 Review workload and compare the state of workload to architectural best practice.
 
-
+What are the AWS Well-Architected Framework’s principles?
 
 AWS well architected framework design principle:-
 1)Stop guessing your capacity 
